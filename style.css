@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#colours-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+#colour-form-container {
+    position: absolute;
+    top: 50%;
+}
+
+#colour-form-container input {
+    background: transparent;
+    border: none;
+    /* border-bottom: 1px black solid; */
+    text-decoration: underline;
+    text-align: center;
+    width: 100vw;
+}
+
+#colour-form-container input:focus {
+    outline: none;
+}
